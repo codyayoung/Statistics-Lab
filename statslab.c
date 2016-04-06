@@ -184,7 +184,7 @@ void medianscores(int scores[6][5]) {	//Outputs middle value in array. Checks fo
 		for (j = 0; j < 5; ++j) {
 			count++;
 		}
-	}
+	}							//Need to fix this function
 	if (count % 2 == 0) {		//If even number, median = sum of two middle numbers/2
 		median = (scores[i / 2][j / 2] + scores[i / 2 + 1][j/2+1]) / 2;
 	}
