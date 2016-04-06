@@ -152,7 +152,7 @@ void meanscores(int scores[6][5]) {		//Outputs mean of test scores
 
 void modescores(int scores[6][5]) {		//Outputs most common test score
 	int i, j;
-	int num = scores[6][5];
+	int num = scores[6][4];
 	int mode = num;
 	int count = 1;
 	int countmode = 1;
@@ -177,7 +177,7 @@ void modescores(int scores[6][5]) {		//Outputs most common test score
 }
 
 void medianscores(int scores[6][5]) {	//Outputs middle value in array. Checks for even or odd # of array elements
-	int i, j;
+	int i, j =0;
 	int count = 0;	//Number of items in array
 	int median = 0;
 	for (i = 0; i < 6; ++i) {
